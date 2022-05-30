@@ -28,7 +28,7 @@ cap = cv2.VideoCapture(0)
 
 while True:
     # Read each frame from the webcam
-    _, frame = cap.read()
+    success, frame = cap.read()
 
     x, y, c = frame.shape
 
